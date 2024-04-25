@@ -1,0 +1,32 @@
+.card {
+    /* Common styles for all cards */
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card__main {
+    /* Common styles for the main container of each card */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card__inner {
+    /* Common styles for the inner container of each card */
+}
+
+/* Define different classes for different card colors */
+.card__color-blue {
+    background-color: #3498db; /* Blue color */
+}
+
+.card__color-green {
+    background-color: #2ecc71; /* Green color */
+}
+
+.card__color-yellow {
+    background-color: #f1c40f; /* Yellow color */
+}
+
+/* Add more color classes as needed */
